@@ -1,0 +1,12 @@
+var context = new iContextMenu({
+		targets: '.perfil',
+		menu: 'contextmenu',
+		actions: {
+			copy: function(element,ref) {
+				element.setStyle('color','#090');
+				alert('You selected the element that says: "' + element.get('text') + '."  I just changed the color green.');
+				alert('Disabling the menu to show each individual action can control the menu instance.');
+				ref.disable();
+			}
+		}
+	});
