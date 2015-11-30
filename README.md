@@ -1,5 +1,6 @@
 # js-iContextMenu
 ContextMenu is a highly customizable, compact context menu script written with CSS, XHTML, and the MooTools JavaScript framework. ContextMenu allows you to offer stylish, functional context menus on your website. 
+iContextMenu is inspired by jQuery Context Menu Plugin.
 
 ##The ContextMenu plugin offers numerous options:
 
